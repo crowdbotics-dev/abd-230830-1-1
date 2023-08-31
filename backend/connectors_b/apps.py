@@ -2,5 +2,5 @@ from django.apps import AppConfig
 
 
 class ConnectorsBConfig(AppConfig):
-    default_auto_field = 'django.db.models.BigAutoField'
-    name = 'connectors_b'
+    default_auto_field = "django.db.models.BigAutoField"
+    name = "connectors_b"
