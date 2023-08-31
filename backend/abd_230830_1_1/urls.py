@@ -37,6 +37,7 @@ urlpatterns = [
     path("api/v1/", include("connectors_b.api.v1.urls")),
     path("api/v1/", include("connectors_c.api.v1.urls")),
     path("api/v1/", include("connectors_d.api.v1.urls")),
+    path("api/v1/", include("connectors_e.api.v1.urls")),
 ]
 
 admin.site.site_header = "abd-230830-1"

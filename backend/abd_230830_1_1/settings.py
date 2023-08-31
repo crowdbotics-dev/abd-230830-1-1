@@ -79,6 +79,7 @@ LOCAL_APPS = [
     "connectors_b",
     "connectors_c",
     "connectors_d",
+    "connectors_e",
 ]
 THIRD_PARTY_APPS = [
     "rest_framework",
