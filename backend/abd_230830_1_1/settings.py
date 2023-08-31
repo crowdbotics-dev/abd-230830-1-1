@@ -72,7 +72,7 @@ INSTALLED_APPS = [
 ]
 LOCAL_APPS = [
     'home',
-    'users.apps.UsersConfig',"connectors_b", "connectors_c"
+    'users.apps.UsersConfig',"connectors_b", "connectors_c", "connectors_d"
 ]
 THIRD_PARTY_APPS = [
     'rest_framework',
