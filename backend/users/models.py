@@ -19,5 +19,4 @@ class User(AbstractUser):
     everything that relates with an `User` is represented by this model.
     """
     name = models.CharField(null=True,blank=True,max_length=255,)
-    def get_absolute_url(self):
-        return reverse('users:detail', kwargs={'username': self.username})
+    def get_absolute_url(self): return reverse('users:detail', kwargs={'username': self.username})
